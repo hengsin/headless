@@ -1,0 +1,20 @@
+{"buckminsters":[
+    {"id":"4.5",
+         "name":"Buckminster 4.5",
+         "url":"https://github.com/hengsin/headless/raw/master/director_latest.zip",
+         "iu":"org.eclipse.buckminster.cmdline.product",
+         "repositoryURL":"https://github.com/hengsin/headless/4.5/raw/master",
+         "repositories":[
+               { "url":"https://github.com/hengsin/headless/4.5/raw/master",
+                   "features":[
+                       {"id":"org.eclipse.buckminster.core.headless.feature"},
+                       {"id":"org.eclipse.buckminster.cvs.headless.feature"},
+                       {"id":"org.eclipse.buckminster.git.headless.feature"},
+                       {"id":"org.eclipse.buckminster.maven.headless.feature"},
+                       {"id":"org.eclipse.buckminster.pde.headless.feature"}
+                  ]} 
+         ]
+     }
+  ]
+}
+
