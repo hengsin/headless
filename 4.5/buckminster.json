@@ -3,9 +3,9 @@
          "name":"Buckminster 4.5",
          "url":"https://github.com/hengsin/headless/raw/master/director_latest.zip",
          "iu":"org.eclipse.buckminster.cmdline.product",
-         "repositoryURL":"https://github.com/hengsin/headless/4.5/raw/master",
+         "repositoryURL":"https://github.com/hengsin/headless/raw/master/4.5",
          "repositories":[
-               { "url":"https://github.com/hengsin/headless/4.5/raw/master",
+               { "url":"https://github.com/hengsin/headless/raw/master/4.5",
                    "features":[
                        {"id":"org.eclipse.buckminster.core.headless.feature"},
                        {"id":"org.eclipse.buckminster.cvs.headless.feature"},
