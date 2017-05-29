@@ -13,7 +13,10 @@ Jenkin Installation:
 Project Configurations > Build > Run Buckminster > Commands:
 
 importtargetdefinition -A '${WORKSPACE}/org.adempiere.sdk-feature/build-target-platform.target'
+
 import -P '${WORKSPACE}/org.adempiere.sdk-feature/materialize.properties' '${WORKSPACE}/org.adempiere.sdk-feature/adempiere.cquery'
+
 build -t
+
 perform -D qualifier.replacement.*=generator:buildTimestamp -D generator.buildTimestamp.format=\'v\'yyyyMMdd-HHmm -D target.os=*   -D target.ws=*   -D target.arch=* -D product.features=org.idempiere.eclipse.platform.feature.group -D product.profile=DefaultProfile -D product.id=org.adempiere.server.product   'org.adempiere.server:eclipse.feature#site.p2'
 
